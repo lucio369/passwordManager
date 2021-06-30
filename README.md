@@ -27,10 +27,10 @@ The overall problem is to find a way to generate a software to store and generat
 #### Problem Decomposition
 
 The problem can be broken down into a series of smaller problems. This is an idea of what they are:
-1.	Encryption of login details in a manner meaning they are secure from unintended third parties.
-2.	The accessibility of the program to use alongside the intended login request.
-3.	The generation of passwords that would be virtually impossible to crack.
-4.	Somehow making login details accessible externally from a computer while maintaining security; the computer program should be more a convenience than a dependence.
+* Encryption of login details in a manner meaning they are secure from unintended third parties.
+* The accessibility of the program to use alongside the intended login request.
+* The generation of passwords that would be virtually impossible to crack.
+* Somehow making login details accessible externally from a computer while maintaining security; the computer program should be more a convenience than a dependence.
 
 Unfortunately, the fourth condition is optional due to the prevalence of security as mentioned before. However, when these conditions are met the process will be completed. Ideally, it will mean a viable password manager is produced to connect a user to their accounts in the ways described above.
 
@@ -47,3 +47,39 @@ Moreover, I outlined prior that I would want the program to produced passwords t
 ### Interview
 
 #### Interview questions
+
+The questions I will ask each stakeholders will concern their experiences with regard to password keeping and account security. I will go over current techniques and try to build a notion of the issues with today's current solutions. I will take a semi-structured approach meaning I will follow the questions stated below but follow up on any points I feel need exploring. This technique will resemble a conversation which will be beneficial to try to understand the perceptions around the problem of password keeping.
+
+1. How would you describe your comfort with computers and mobile phones?
+2. In relation to password keeping, do you remember your own passwords or use external resources to access your accounts
+3. Have you noticed a change in account security requirements in recent years? If so, how do you feel about these changes?
+4. How would you describe the security of your own passwords and accounts?
+5. Do you use any password managers?
+6. If you were away from your home and devices and were asked to login to one of your accounts, how confident are you that you would manage?
+7. Do you have your own ideas as to how to resolve this issue? What would you look for in the solution?
+8. What kinds of services do you have accounts for?
+9. Do you have anything else to add?
+
+#### Interview results
+
+Hey [name], I was wondering if you would be happy to be a stakeholder for a project I am doing at the moment. I started a project to look into developing a password manager but I need stakeholders to ask questions and to review each prototype. I would need you to fill out an initial questionnaire and then to Give me a little feedback on each prototype. They would likely be completed monthly and I estimate a total of three prototypes. I only need five minutes of your time for the monthly review and for you to complete an initial survey. Would you be willing to help?
+
+##### **Under 18s**
+
+###### N - Asked
+
+##### **Under 30s**
+
+###### S - Asked
+
+###### N - Confirmed
+
+##### **Over 30s**
+
+###### A - Asked
+
+###### T - Confirmed
+
+#### Analysis of results
+
+### Research
