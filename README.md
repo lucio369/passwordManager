@@ -40,7 +40,7 @@ The problem being decomposed outlines all the challenges demanded by the solutio
 
 #### Abstraction
 
-When storing sensitive information, we can encrypt it to mask the meaning attached to data so that it is not used by an unauthorised third party. Encryption essentially is the abstraction of meaning from something. In removing the meaning of the data and thus changing it into something useless for interceptors the information is kept secure.
+When storing sensitive information, we can encrypt it to mask the meaning attached to data so that it is not used by an unauthorized third party. Encryption essentially is the abstraction of meaning from something. In removing the meaning of the data and thus changing it into something useless for interceptors the information is kept secure.
 
 Moreover, I outlined prior that I would want the program to produced passwords that would be virtually impossible to crack. By virtually impossible it means that current hacking techniques would take an extremely long time to crack a password so much so that it is deemed impossible. In this sense, abstraction is used to make the matter of password cracking a statistical matter as opposed to considering the entire situation of the user and their login. Some cracking techniques are trained on dictionaries due to our tendency to use passwords in terms of language. On the other hand, brute force describes the password cracking method which goes over every possibility until finding the original password. Anyway, these describe cracking as a matter of time; the longer a password would take to crack, the stronger it is considered to be.
 
@@ -60,23 +60,146 @@ The questions I will ask each stakeholders will concern their experiences with r
 8. What kinds of services do you have accounts for?
 9. Do you have anything else to add?
 
+Here is the Google [form](https://forms.gle/Hpycs4xxTLPN6YtZA)
 #### Interview results
 
-##### **Under 18s**
+##### How would you describe your comfort with computers and mobile phones?
+###### **Under 18**
+> I'm okay with them.
+> -N
+###### **Under 30**
+> I have the basics down but I tend to struggle quite often with the smaller details.
+> -H
 
-###### N - Confirmed
+> Decent.
+> -T
+###### **Over 30**
+> Fair.
+> -A
 
-##### **Under 30s**
+> Not very comfortable - enough to get along with.
+> -T
 
-###### V - Confirmed
+##### In relation to password keeping, do you remember your own passwords or use external resources to access your accounts?
+###### **Under 18**
+> I remember my passwords.
+> -N
+###### **Under 30**
+> I remember my own but take into account the suggested styles.
+> -H
 
-###### N - Confirmed
+> External sources.
+> -T
+###### **Over 30**
+> Remember some, use digital memory for some and will generate new for some.
+> -A
 
-##### **Over 30s**
+> I have a system for remembering passwords but it is a very insecure one.
+> -T
 
-###### A - Confirmed
+##### Have you noticed a change in account security requirements in recent years> If so, how do you feel about these changes?
+###### **Under 18**
+> No.
+> -N
+###### **Under 30**
+> Passwords have to be much more complex and some know when you've used passwords for different sites and require a completely new one which is harder for me to remember.
+> -H
 
-###### T - Confirmed
+> It requires more 'unique' characters in a password for it to be accepted which makes it more difficult to remember.
+> -T
+###### **Over 30**
+> Mixed feelings. Sometimes it's too much security sometimes not enough.
+> -A
+
+>They are more hopes to jump through and a lot of code recognition requests that mean that if you are not in possession of your mobile phone there is not a lot you can do in my experience, particularly if you are in the pocket of Google.
+> -T
+
+##### How would you describe the security of your own passwords and accounts?
+###### **Under 18**
+> They are good passwords, complicated.
+> -N
+###### **Under 30**
+> I repeat passwords with slight changes but they are somewhat complex.
+> -H
+
+> Not very sure, my passwords are often the same across multiple accounts with slight variations to them.
+> -T
+###### **Over 30**
+> Fair.
+> -A
+
+> Atrocious.
+> -T
+
+##### Do you use any password managers?
+###### **Under 18**
+> No.
+> -N
+###### **Under 30**
+> No.
+> -H
+
+> No.
+> -T
+###### **Over 30**
+> Yes.
+> -A
+
+> No.
+> -T
+
+##### If you were away from your home and devices and were asked to login to one of your accounts, how confident are you that you would manage?
+###### **Under 18**
+> 4/5.
+> -N
+###### **Under 30**
+> 3/5.
+> -H
+
+> 1/5.
+> -T
+###### **Over 30**
+> 3/5.
+> -A
+
+> 1/5.
+> -T
+
+##### Do you have your own ideas as to how to resolve this issues? What would you look for in the solution?
+###### **Under 30**
+> Some sites to require you to always input your password so you don't rely on your device remembering it when you face a new one.
+> -H
+
+> For it to be available on my phone and PC and updates when any changes are made.
+> -T
+###### **Over 30**
+> Write em down, analog style.
+> -A
+
+> I don't believe that there is much choice not to have your mobile phone because the security step insists that you read back a code sent to your mobile phone. If I sign in on a public computer I need my mobile phone or can't do a thing.
+> -T
+
+##### What kinds of services do you have accounts for?
+###### **Under 18**
+> Games, revision sites.
+> -N
+###### **Under 30**
+> Music, social media, banks, education.
+> -H
+
+> Entertainment, google, online banking
+> -T
+###### **Over 30**
+> Varied.
+> -A
+
+> Peer to peer selling sites: Depop, Vinted, Amazon, eBay, Google Photos.
+> -T
+
+##### Do you have anything else to add?
+###### **Over 30**
+> Google now notifies me when I use the same password for multiple sites. I suspect this is phishing
+> -A
 
 #### Analysis of results
 
