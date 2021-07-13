@@ -203,4 +203,16 @@ Here is the Google [form](https://forms.gle/Hpycs4xxTLPN6YtZA)
 
 #### Analysis of results
 
+##### Review of results for Under 18
+
+According to the data input by the Under 18's stakeholder, it appears they are quite comfortable with the security concerns over passwords and account keeping. As expected the accounts the stakeholder holds are in relation to videogames and revision sites for their education. Since they represent a younger demographic the changes of the past few years whereby users are expected to produce more 'complicated' passwords appears normal to this stakeholder I suppose due to their growth along with these changes. Of course, this stakeholder representing the whole demographic alone will bring the authenticity of the results into question as well perhaps due to bias. Further review will be taken to comprehend the quality of this stakeholder's online security; this will authenticate their input data for this interview.
+
+##### Review of results for Under 30
+
+Overall this age group would describe their competence with online security in terms of their password quality and diversity as weak to moderate. The two stakeholders representing this demographic has some contrast in their input but appear much more concerned with the changes in security compared to the Under 18s stakeholder. Looking at the services this group uses it appears security is much more a concern as well where both use online banking. When asked how each stakeholder would resolve the issue of password keeping one seemed interested in access of passwords on devices required, resembling the approach modern password managers take. Alternatively, the other stakeholder suggests the practice itself of inputting ones password to test them to be an effective solution; challenging and building the users memory. The contrast where one suggestion looks for convenience and dependence on a password manager as opposed to independence and reinforcement of memory make interesting answers to this question as well.
+
+##### Review of results for Over 30
+
+The two stakeholders for the Over 30s category appear to have very different responses to this questionnaire. While one appears to have some confident and strong comprehension of security issues of this time, the other has poor passwords in their opinion and ultimately little options with a strong dependence on access to their mobile phone. Looking at stakeholder A, they are the only user who uses a password manager already. Interestingly, in spite of using password managers, they still believe writing passwords down as more secure. Stakeholder T however apparently has created a system for password keeping but an insecure one. I initially suspected this age bracket would have the poorest results in reference to quality of online security but due to the selection of sample no apparent trend can be found. In either case, they wanted to be stakeholders primarily out of curiosity with the project.
+
 ### Research
