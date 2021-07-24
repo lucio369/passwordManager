@@ -216,3 +216,47 @@ Overall this age group would describe their competence with online security in t
 The two stakeholders for the Over 30s category appear to have very different responses to this questionnaire. While one appears to have some confident and strong comprehension of security issues of this time, the other has poor passwords in their opinion and ultimately little options with a strong dependence on access to their mobile phone. Looking at stakeholder A, they are the only user who uses a password manager already. Interestingly, in spite of using password managers, they still believe writing passwords down as more secure. Stakeholder T however apparently has created a system for password keeping but an insecure one. I initially suspected this age bracket would have the poorest results in reference to quality of online security but due to the selection of sample no apparent trend can be found. In either case, they wanted to be stakeholders primarily out of curiosity with the project.
 
 ### Research
+
+#### Existing solutions and technologies
+
+##### Password managers
+
+Due to rising security concerns, the use of password manager services has become a standard with regard to ones online security. There are various options of service with varying platforms and pricing available. These services are offered as both proprietary and open-source applications.
+
+LastPass is a service offering secure password management for both personal and business use. It has various features in attempt to maintain the clients security but also to provide convenience.
+
+![Platforms](documentationImages/lastPassPlatforms.png)
+
+Here is what it has to offer:
+
+1. An online account to store and access passwords when connected to the internet
+2. The option to fill payment and shipping details when shopping online
+3. A password generator to create long randomized passwords to protect against hacking
+4. The storage of digital records such as insurance cards, memberships or Wi-Fi Passwords
+5. A secure platform to send private data such as passwords and notifies
+6. Dark web monitoring to get alerted if your personal information is at risk
+
+Regarding their plans, they offer both free and premium plans for personal use and plans for
+1Password
+
+Dashlane
+
+Keeper
+
+Bitwarden
+
+KeePass
+
+Padloc
+
+Passbolt
+
+##### APIs and Password managers
+
+##### Steganography
+
+##### Cryptography
+
+##### Cryptograms
+
+##### Memory challenging for improvement
