@@ -223,33 +223,50 @@ The two stakeholders for the Over 30s category appear to have very different res
 
 Due to rising security concerns, the use of password manager services has become a standard with regard to ones online security. There are various options of service with varying platforms and pricing available. These services are offered as both proprietary and open-source applications.
 
-LastPass is a service offering secure password management for both personal and business use. It has various features in attempt to maintain the clients security but also to provide convenience.
+LastPass, 1Password and Dashlane are all proprietary password managers:
 
-![Platforms](documentationImages/lastPassPlatforms.png)
+Here is what they have to offer:
 
-Here is what it has to offer:
+1. Cloud access and storage - offers accessibility with convenience of access where one has an internet connection
+2. Autofill - quick interaction with services as logging in is simplified
+3. Random password generator - production of secure passwords for you
+4. Non login info storage - storage of private information other than passwords and usernames
+5. Secure transfer to intended parties - a private channel to send private information to specific people under end-to-end encryption
+6. Dark web monitoring - looks to see if your information has been compromised and sold on the dark-web, also often alerting the user on breaches on their services
+7. Live account detail recording - records logins on registration or logging in
+8. Availability for all devices, browsers and operating systems - Access across devices to login to apps and websites securely
+9. password security analyzer - reviews the quality of your passwords in attempt to reduce successful hacks
+10. End-to-end encryption - nobody has access to your passwords other than you (and those who know your password)
 
-1. An online account to store and access passwords when connected to the internet
-2. The option to fill payment and shipping details when shopping online
-3. A password generator to create long randomized passwords to protect against hacking
-4. The storage of digital records such as insurance cards, memberships or Wi-Fi Passwords
-5. A secure platform to send private data such as passwords and notifies
-6. Dark web monitoring to get alerted if your personal information is at risk
+All these features are useful yet featured in each of the mentioned services, meaning their fundamental differences are in the UI or quality of their encryption and security as a company (which is essentially invisible to the user). Notably, they offer a free plan with reduced services as well as payment plans for personal, family and business use.
 
-Regarding their plans, they offer both free and premium plans for personal use and plans for
-1Password
+Bitwarden & KeePass
 
-Dashlane
+Unlike those prior mentioned, Bitwarden and KeePass are open source password managers. For both of them: code, features and infrastructure security are improved by their global communities. As well, they express themselves as more inclusive offering support for 40 languages for both services. While Bitwarden markets themselves as open-source, they do offer non-free plans like the others for cloud hosting (if you want). On the other hand KeePass is open-source but does not offer online access- security is more local for this service. Essentially, Bitwarden offers convenience of access globally (over the internet) as well as exclusively local access whereas KeePass offers exclusively local access needing the application and information stored locally. While Bitwarden offers online and offline  it has less features compared to KeePass's exclusively offline services. Most importantly, both services offer APIs to interact with their services however the user wants: this could mean an entirely custom UI, the use of services in their IoT (Internet of things), or perhaps to add another layer of security (e.g. unlocking passwords for kids after their online homework is marked as submitted)
 
-Keeper
 
-Bitwarden
+Bitwarden's additional features:
+
+1. self-hosted services on top of cloud services
+2. Integration through APIs, SSO authentication and Directory services: plugins
+3. Portable exe - convenient for use with multiple computers (plug and play)
 
 KeePass
 
-Padloc
+KeePass is another open source password manager, offering:
 
-Passbolt
+1. Importation or exportation of passwords to and from various formats
+2. Integration with databases to interact (edit, create or delete records)
+3. Multiple user keys to access either with a master password or external keys (usb, floppy-disk, etc.)
+4. Portable exe - convenient for use with multiple computers (plug and play)
+5. Integration through APIs, SSO authentication and Directory services: plugins
+
+But losing:
+
+1. Cloud access and storage
+2. Dark web monitoring
+
+Bitwarden has the best features of any mentioned password manager with all it's included features, transparency (open-sourced nature), flexibility (with plugins and APIs), convenient online storage and retrieval, a portable exe to close the access gap between computers (through the use of external storage holding the software) and security where it's open-source nature prevents the use of backdoors and essentially security is self-maintained by it's global community.
 
 ##### APIs and Password managers
 
