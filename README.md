@@ -319,7 +319,7 @@ Since the basis of cryptography demands foreknowledge or comprehension of a mess
 
 A cryptogram is a type of puzzle that consists of a short piece of encrypted text. Generally it is simple enough that the cryptogram can be solved by hand. It often uses a altered alphabet where a message is rewritten using this same alphabet. It can be solved by working out the meaning of each letter and is often made easier when first approaching smaller words. The point is, it is difficult but plausibly solved if the puzzle solver understands the fact it is a cryptogram.  
 
-(https://assets.ltkcontent.com/images/17822/30.solve-cryptograms_0066f46bde.jpg)
+![Cryptogram example](https://assets.ltkcontent.com/images/17822/30.solve-cryptograms_0066f46bde.jpg)
 
 ##### Memory challenging for improvement
 
