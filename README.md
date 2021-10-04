@@ -242,7 +242,7 @@ All these features are useful yet featured in each of the mentioned services, me
 
 Bitwarden & KeePass
 
-Unlike those prior mentioned, Bitwarden and KeePass are open source password managers. For both of them: code, features and infrastructure security are improved by their global communities. As well, they express themselves as more inclusive offering support for 40 languages for both services. While Bitwarden markets themselves as open-source, they do offer non-free plans like the others for cloud hosting (if you want). On the other hand KeePass is open-source but does not offer online access- security is more local for this service. Essentially, Bitwarden offers convenience of access globally (over the internet) as well as exclusively local access whereas KeePass offers exclusively local access needing the application and information stored locally. While Bitwarden offers online and offline  it has less features compared to KeePass's exclusively offline services. Most importantly, both services offer APIs to interact with their services however the user wants: this could mean an entirely custom UI, the use of services in their IoT (Internet of things), or perhaps to add another layer of security (e.g. unlocking passwords for kids after their online homework is marked as submitted)
+Unlike those prior mentioned, Bitwarden and KeePass are open source password managers. For both of them: code, features and infrastructure security are improved by their global communities. As well, they express themselves as more inclusive offering support for 40 languages for both services. While Bitwarden markets themselves as open-source, they do offer non-free plans like the others for cloud hosting (if you want). On the other hand KeePass is open-source but does not offer online access- security is more local for this service. Essentially, Bitwarden offers convenience of access globally (over the internet) as well as exclusively local access whereas KeePass offers exclusively local access needing the application and information stored locally. While Bitwarden offers online and offline  it has less features compared to KeePass's exclusively offline services. Most importantly, both services offer APIs and CLIs to interact with their services however the user wants: this could mean an entirely custom UI, the use of services in their IoT (Internet of things), or perhaps to add another layer of security (e.g. unlocking passwords for kids after their online homework is marked as submitted)
 
 
 Bitwarden's additional features:
@@ -266,14 +266,61 @@ But losing:
 1. Cloud access and storage
 2. Dark web monitoring
 
-Bitwarden has the best features of any mentioned password manager with all it's included features, transparency (open-sourced nature), flexibility (with plugins and APIs), convenient online storage and retrieval, a portable exe to close the access gap between computers (through the use of external storage holding the software) and security where it's open-source nature prevents the use of backdoors and essentially security is self-maintained by it's global community.
+Bitwarden has the best features of any mentioned password manager with all it's included features, transparency (open-sourced nature), flexibility (with plugins and APIs), convenient online storage and retrieval, a portable exe to close the access gap between computers (through the use of external storage holding the software) and security where it's open-source nature prevents the use of backdoors; essentially security is self-maintained by it's global community.
 
 ##### APIs and Password managers
 
+Generally speaking, proprietary software does not allow the user access to the source code and files disallowing the production of APIs for the sake of interaction. Open-source password Managers like KeePass and Bitwarden reveal their code and encourage the user to use it in whichever mode they prefer; be it by using the software the company has produced or merely code and servers for the user to create their own UI or interactional features.
+
+For Bitwarden, you can find applications produced by it's global programming community for:
+1. Web applications
+2. Encrypting json files
+3. Self-hosted bitwarden servers
+4. Repositories dedicated to AWS severless hosting
+5. Alternate clients
+
+Bitwarden itself, is a strong service and has been commended online as an excellent password manager. Already, bitwarden services offer the majority of features demanded by the project:
+
+* Encryption of login details in a manner meaning they are secure from unintended third parties.
+* The accessibility of the program to use alongside the intended login request.
+* The generation of passwords that would be virtually impossible to crack.
+
+What remains is that which I referred to as an optional objective of the project:
+
+* Somehow making login details accessible externally from a computer while maintaining security; the computer program should be more a convenience than a dependence.
+
+Since, the open-source nature of bitwarden commands the users interactions with it, I think reforming the UI around the problems will be beneficial to this project's stakeholders. As well it means that I can create further layers or options with regard to security.
+
 ##### Steganography
 
-##### Cryptography
+Steganography describes the practice of hiding a message with in another message or a physical object. Regarding digital computing, a computer file, message, image or video is hidden in another file, message, image or video. Essentially, where cryptography protects data by converting it into a code to prevent unauthorized access, steganography conceals information by concealing the message in unexpected mediums.
 
-##### Cryptograms
+Throughout history steganography has been used through a variety of methods:
+* Hidden messages written in secret inks
+* Hidden messages distributed according to a certain rule or key, amongst other words of another text (e.g. leaflet) - Null ciphers
+* Morse code on yarn and clothing
+* Texts or images printed but in a much smaller surface area - Microdots
+* Messages written below stamps on post cards
+
+Here are some examples of digital steganography:
+* Concealing messages within the lowest bits of sound files
+* Inscribing spectrograms of sound files with written information
+* Pictures embedded in video material
+* Including data in ignored sections of a file, such as after the logical end of the carrier file
+* Blog-steganography
+* Changing the order of elements in a set
+* Using non-printing Unicode characters Zero-Width Joiner (ZWJ) and Zero-Width Non-Joiner (ZWNJ) as 1s and 0s:uses arabic, persian character sets, or whitespace characters as they are not visibly shown
+* Embedding messages in the pattern of deliberate errors and marked corrections
+* Using puzzles- like using the solution of a sudoku puzzle as the key for the decryption of cyphertext
+
+Since the basis of cryptography demands foreknowledge or comprehension of a messages context with regard to the unexpected medium, it may prove useful and approachable for further or alternate security. Looking at the historical use of steganography, I think this will be particularly useful for offline access to information. Finding out said information offline while not being insecurely exposed.
+
+##### Cryptograms and other cryptographic puzzles
+
+A cryptogram is a type of puzzle that consists of a short piece of encrypted text. Generally it is simple enough that the cryptogram can be solved by hand. It often uses a altered alphabet where a message is rewritten using this same alphabet. It can be solved by working out the meaning of each letter and is often made easier when first approaching smaller words. The point is, it is difficult but plausibly solved if the puzzle solver understands the fact it is a cryptogram.  
+
+(https://assets.ltkcontent.com/images/17822/30.solve-cryptograms_0066f46bde.jpg)
 
 ##### Memory challenging for improvement
+
+##### Cryptography | hashing, salting, peppering
