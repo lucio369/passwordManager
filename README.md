@@ -1,4 +1,4 @@
-# A Look into Password Managers
+# Adapting Interaction with the Bitwarden Password Manager
 
 ## Analysis
 
@@ -323,4 +323,16 @@ A cryptogram is a type of puzzle that consists of a short piece of encrypted tex
 
 ##### Memory challenging for improvement
 
-##### Cryptography | hashing, salting, peppering
+There are several techniques developed to choosing and recalling passwords to make them more memorable. Today, password recollection is not an advised method for your personal security due to the vast amounts of accounts with a variety of services online. However, independence from your password manager is still important for at least accessing the password manager account and perhaps your email.
+
+Here are some examples:
+1. Recall a poem or song verse and use it as a base
+2. Forming a memory palace and creating visual associations to recall each part of your password
+3. Using randomly generated passphrases as a base
+4. Treating your keyboard like a constellation (make shapes from your keyboard and recall what keys cross them)
+
+Another technique actually works for randomly generated passwords. This is called spaced repetition and is similar to the method we deploy for learning another language. Overall, it forces recall to improve the connections in the brain for easier and quicker memory retrieval over a period of time. Joseph Bonneau and Stuart Schechter's experiment showed the capacity to remember 56-bit passwords, (7 character randomly generated passwords) in several test subjects when using this method. [Here is their paper.](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-bonneau.pdf)
+
+##### Modern Encryption
+
+Encryption refers to the process of translating information into code. Regarding cyber security, encryption is used to prevent unauthorized access to the plaintext data. Where steganography hides the message in the medium, encryption can be said to hide the message in comprehensible meaning. In symmetrical encryption the same key is used to encrypt and decrypt the message. This method is considered insecure as the hacker needs only to obtain one key to intercept and obtain the information. Today, we typically use asymmetrical encryption where we use public and private keys where the public key is used to encrypt a message and the private key for decryption. The Rivest-Shamir-Adleman (RSA) encryption algorithm is currently the most widely used asymmetrical key algorithm. With RSA, either the public or the private key can be used to encrypt a message; whichever key is not used for encryption is then used for decryption.
