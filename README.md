@@ -336,3 +336,25 @@ Another technique actually works for randomly generated passwords. This is calle
 ##### Modern Encryption
 
 Encryption refers to the process of translating information into code. Regarding cyber security, encryption is used to prevent unauthorized access to the plaintext data. Where steganography hides the message in the medium, encryption can be said to hide the message in comprehensible meaning. In symmetrical encryption the same key is used to encrypt and decrypt the message. This method is considered insecure as the hacker needs only to obtain one key to intercept and obtain the information. Today, we typically use asymmetrical encryption where we use public and private keys where the public key is used to encrypt a message and the private key for decryption. The Rivest-Shamir-Adleman (RSA) encryption algorithm is currently the most widely used asymmetrical key algorithm. With RSA, either the public or the private key can be used to encrypt a message; whichever key is not used for encryption is then used for decryption.
+
+Encryption is particularly important for the storage and transmission of sensitive data.
+
+#### Convenience of access
+
+Already, password managers attempt to improve access and interaction through the use of web applications/extensions and dedicated software to retrieve and input login data. However, interaction is mainly improved between machines with the dedicated software/program already running. If you are away from your home computers many may find accessing their private information (stored on their dedicated password managers) awkward and difficult. I wanted to research alternate methods of storing and retrieving sensitive information a range of scenarios.
+
+##### QR codes
+
+##### NFC tags
+
+##### Snaptags
+
+##### Image recognition
+
+##### Bluetooth beacons
+
+##### Dongles for temporary password management
+
+My thinking is to have a system to retrieve passwords (inaccessible to user) to output the whole password, a hint, a visual representation (like captcha), an encryption or a steganography of a password so the device is excluded from internet access and requires physical possession to obtain sensitive information.
+
+##### Programs in icon tray /
