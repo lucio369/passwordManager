@@ -345,16 +345,21 @@ Already, password managers attempt to improve access and interaction through the
 
 ##### QR codes
 
+QR codes (or quick response codes) are essentially a two dimensional version of the barcode. A typical QR code can store 7089 digits including alphanumeric, punctuation marks and special characters. Even when damaged, QR codes structure includes duplications as to allow up to 30% of the code structure to take damage without affecting readability. Static QR codes store information that is fixed once generated; they could be used for quick Wi-Fi access, storage of bitcoin addresses, email addresses, or even just to store plaintext. Dynamic QR codes differ where they do not store the information directly but instead has a redirection URL attached to it (allowing the edit of it's 'contents'). They tend to be used for links to app store pages, pdfs, social media pages, for coupons or business sites.
+
 ##### NFC tags
+
+Near Field Communication (NFC) allows users to make secure transactions, exchange digital content, and connect electronic devices with a touch.
+Applications:
+1. Commerce
+2. Bootstrapping other connections
+3. Social networking
+4. Automation configuration of other devices
 
 ##### Snaptags
 
-##### Image recognition
-
-##### Bluetooth beacons
+Snaptags are 2d barcodes similar to QR codes. They use an icon or company logo and a code rather than a square pattern of black dots. They have the same potential but differ in appearance. Their main appeal is to maintain  brand identity
 
 ##### Dongles for temporary password management
 
 My thinking is to have a system to retrieve passwords (inaccessible to user) to output the whole password, a hint, a visual representation (like captcha), an encryption or a steganography of a password so the device is excluded from internet access and requires physical possession to obtain sensitive information.
-
-##### Programs in icon tray /
