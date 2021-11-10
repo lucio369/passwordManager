@@ -360,6 +360,8 @@ Applications:
 
 Snaptags are 2d barcodes similar to QR codes. They use an icon or company logo and a code rather than a square pattern of black dots. They have the same potential but differ in appearance. Their main appeal is to maintain  brand identity
 
-##### Dongles for temporary password management
+### Requirements
 
-My thinking is to have a system to retrieve passwords (inaccessible to user) to output the whole password, a hint, a visual representation (like captcha), an encryption or a steganography of a password so the device is excluded from internet access and requires physical possession to obtain sensitive information.
+### Success Criteria
+
+## Design
